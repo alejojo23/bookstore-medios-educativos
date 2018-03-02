@@ -1,192 +1,138 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-        <link rel="icon" type="image/png" href="assets/img/favicon.png">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-        <title>Coquito Colombia</title>
-        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
-        <!--     Fonts and icons     -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-        <!-- CSS Files -->
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="assets/css/now-ui-kit.css" rel="stylesheet" />
-        <!-- CSS Just for demo purpose, don't include it in your project -->
-        <link href="assets/css/demo.css" rel="stylesheet" />
-    </head>
-    <body class="landing-page">
-        <!-- Navbar -->
-        <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Medios Educativos</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/css/now-ui-kit.css" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+</head>
+
+<body class="landing-page">
+    <!-- Navbar -->
+    <nav class="navbar navbar-toggleable-md bg-primary fixed-top navbar-transparent " color-on-scroll="500">
+        <div class="container">
+            <div class="dropdown button-dropdown">
+                <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
+                    <span class="button-bar"></span>
+                    <span class="button-bar"></span>
+                    <span class="button-bar"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-header">Opciones</a>
+                    <a class="dropdown-item" href="coquito.html">Catálogo Coquito</a>
+                    <a class="dropdown-item" href="catalogo.html">Otras editoriales</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Contáctanos</a>
+                </div>
+            </div>
+            <div class="navbar-translate">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" rel="tooltip" title="Un aliado Lista en Casa" data-placement="bottom" target="_blank">
+                    Medios Educativos
+                </a>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="popover" title="Teléfono Oficina" data-content="(1) 342 7868" data-placement="bottom" href="#" id="new-design">Contáctanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" rel="tooltip" href="catalogo.html" id="new-design" >Catálogo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+   <!-- <div class="wrapper">
+        <div class="page-header page-header-small">
+            <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg6.jpg');">
+            </div>
             <div class="container">
-                <div class="dropdown button-dropdown">
-                    <a href="#pablo" class="dropdown-toggle" id="navbarDropdown" data-toggle="dropdown">
-                        <span class="button-bar"></span>
-                        <span class="button-bar"></span>
-                        <span class="button-bar"></span>
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-header">Opciones</a>
-                        <a class="dropdown-item" href="coquito.html">Catálogo Coquito</a>
-                        <a class="dropdown-item" href="catalogo.html">Otras editoriales</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" data-toggle="popover" title="Teléfono Oficina" data-content="(1) 342 7868" data-placement="bottom" data-trigger="focus" href="#">Contáctenos</a>
-                    </div>
-                </div>
-                <div class="navbar-translate">
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-bar bar1"></span>
-                        <span class="navbar-toggler-bar bar2"></span>
-                        <span class="navbar-toggler-bar bar3"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html" rel="tooltip" title="Un aliado Lista en Casa" data-placement="bottom" target="_blank">
-                        Medios Educativos
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="assets/img/blurred-image-1.jpg">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" data-toggle="popover" title="Teléfono Oficina" data-content="(1) 342 7868" data-placement="bottom" href="#">Contáctanos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" href="catalogo.html">Catálogo</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- End Navbar -->
-        <div class="wrapper">
-            <div class="page-header page-header-small">
-                <div class="page-header-image" data-parallax="true" style="background-image: url('assets/img/bg6.jpg');">
-                </div>
-                <div class="container">
-                    <div class="content-center">
-                        <h1 class="title">Editorial<br>
-                            <img src="assets/img/logo.png" alt="Logo Coquito" style="min-width:40%; height:120px;">
-                        </h1>
-                        
-                        <div class="text-center">
-                            <a href="#pablo" class="btn btn-primary btn-icon  btn-icon-mini">
-                                <i class="fa fa-facebook-square"></i>
-                            </a>
-                            <a href="#pablo" class="btn btn-primary btn-icon btn-icon-mini">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a href="#pablo" class="btn btn-primary btn-icon  btn-icon-mini">
-                                <i class="fa fa-google-plus"></i>
-                            </a>
-                        </div>
+                <div class="content-center">
+                    <br>
+                    <br>
+                    <br>
+                    <h1 class="title">Distribuidor oficial de <br>
+                        <img src="assets/img/logo.png" alt="Logo Coquito" style="min-width:40%; height:120px;"><br> 
+                        en Colombia.
+                    </h1>
+                    <br>
+                    <div class="text-center">
+                        <a href="#pablo" class="btn btn-primary btn-icon  btn-icon-mini">
+                            <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-primary btn-icon btn-icon-mini">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                        <a href="#pablo" class="btn btn-primary btn-icon  btn-icon-mini">
+                            <i class="fa fa-google-plus"></i>
+                        </a>
                     </div>
                 </div>
             </div>
+        </div>-->
+        <img class="imagen-coquito" src="assets/img/logo.png" alt="Logo Coquito">
             <div class="section section-team text-center ">
                 <div class="container">
-                    <h2 class="title">Productos Coquito</h2>
                     <div class="team">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="team-player">
-                                    <img src="assets/img/libro1.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Coquito clásico: Lectura inicial</h4>
-                                    <p class="category text-primary">$15.000</p>
+                                    <h4 class="title">Lectura Inicial</h4>
                                     <p class="text-justify">
-                                        Presentación: Libro de 128 páginas.
-                                        Formato: 27.5 x 20.5 cm. A todo color.
-                                        Incluye: 54 lecciones graduadas para la enseñanza de la lectura y escritura, basadas en el método global de las palabras.
+                                        Textos de Lenguaje y Estimulación Lectora para niños de 4 a 7 años de edad. Estos textos generarán en los niños interés por la lectura, enseñandoles a leer de forma fácil y divertida.
                                     </p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
+                                    <a href="#pablo" class="btn btn-primary"><i> Ir Ahora</i></a>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="team-player">
-                                    <img src="assets/img/libro2.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title"> Coquito auténtico: Lectura inicial</h4>
-                                    <p class="category text-primary">$7.000</p>
+                                    
+                                    <h4 class="title">Refuerzo Escolar</h4>
+                                   
                                     <p class="text-justify">
-                                        Presentación: Libro de 128 páginas.
-                                        Formato: 15 x 20.5 cm. A todo color.
-                                        Incluye las 54 lecciones que comprende el Método COQUITO.
+                                        A través de textos de Lenguaje, Matemática y Arte, los niños entre 2 a 10 años pueden reforzar su concentración con las ayudas didácticas del material, logrando así la comprensión de temas escolares con mayor facilidad.
                                     </p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
+                                    <a href="#pablo" class="btn btn-primary"><i>Ir Ahora</i></a>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                           
+                            <div class="col-md-6">
                                 <div class="team-player">
-                                    <img src="assets/img/libro3.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Coquito: Estimulación lectora</h4>
-                                    <p class="category text-primary">$13.000</p>
-                                    <p class="text-justify">Descripción del libro</p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="team-player">
-                                    <img src="assets/img/CoquitodeOro.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Coquito De Oro</h4>
-                                    <p class="category text-primary">$38.000</p>
+                                    
+                                    <h4 class="title">Plan Lector</h4>
+                                    
                                     <p class="text-justify">
-                                        Presentación: Libro de 244 páginas.
-                                        Formato: 27.5 x 20.5. A todo color.
-                                        Incluye: 54 lecciones graduadas para la enseñanza de la lectura y escritura, basadas en el método global de las palabras.
+                                        A través de la Estimulación Lectora, los niños de 3 a 10 años tienen acceso a cientos de cuentos y fábulas entretenidas para leer en cualquier momento del día.
                                     </p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
+                                    <a href="#pablo" class="btn btn-primary"><i>Ir Ahora</i></a>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-6">
                                 <div class="team-player">
-                                    <img src="assets/img/libro2.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title"> Cancionero Coquito</h4>
-                                    <p class="category text-primary">$20.000</p>
-                                    <p class="text-justify">Descripción del libro</p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
+                                    
+                                    <h4 class="title"> Presentaciones Especiales</h4>
+                                    
+                                    <p class="text-justify">Material didáctico, paquetes de estimulación lectora, matemáticas, lenguaje y arte, para niños de 2 a 10 años. Todo el material complementario en un solo lugar.</p>
+                                    <a href="#pablo" class="btn btn-primary"><i>Ir Ahora</i></a>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <div class="team-player">
-                                    <img src="assets/img/libro3.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Tarjetas de Asociación</h4>
-                                    <p class="category text-primary">$17.000</p>
-                                    <p class="text-justify">Descripción del libro</p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="team-player">
-                                    <img src="assets/img/libro1.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Coquito Caligrafia</h4>
-                                    <p class="category text-primary">$9.000</p>
-                                    <p class="text-justify">Descripción del libro</p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="team-player">
-                                    <img src="assets/img/ABCCoquito.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title"> Coquito ABC</h4>
-                                    <p class="category text-primary">$9.000</p>
-                                    <p class="text-justify">
-                                        Dirigido a niños en aprendizaje de la lectura inicial.
-                                        Presentación: Libro de 32 páginas.
-                                        Formato: 27.5 x 20.5 cm. A todo color.
-                                    </p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="team-player">
-                                    <img src="assets/img/libro3.jpg" alt="Thumbnail Image" class="img-fluid img-raised">
-                                    <h4 class="title">Coquito My Alphabet</h4>
-                                    <p class="category text-primary">$9.000</p>
-                                    <p class="text-justify">
-                                        Dirigido a niños de 4 a 7 años.
-                                        Presentación: Libro de 32 páginas.
-                                        Formato: 27.5 x 20.5 cm. A todo color.
-                                    </p>
-                                    <a href="#pablo" class="btn btn-primary"><i> Comprar en Lista en Casa</i></a>
-                                </div>
-                            </div>
+                          
                         </div>
                     </div>
                 </div>
@@ -196,7 +142,7 @@
                     <nav>
                         <ul>
                             <li>
-                                <a href="http://www.edicionescoquito.com/comprar.html">
+                                <a href="http://www.coquito.pe">
                                     Coquito
                                 </a>
                             </li>
