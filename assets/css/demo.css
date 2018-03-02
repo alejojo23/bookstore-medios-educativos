@@ -426,3 +426,17 @@
 .section-images{
     padding-bottom: 0;
 }
+
+#new-design{
+    font-size: 0.857em;
+}
+
+.image-container.image-right {
+    top: 210px;
+    margin-left: -25px;
+    margin-bottom: 170px;
+}
+
+.main-paragraph{
+    text-align: justify;
+}
