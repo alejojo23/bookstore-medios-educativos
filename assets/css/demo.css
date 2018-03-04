@@ -463,3 +463,11 @@ h5{
 .section {
     padding: 30px 0 !important;
 }
+
+.lecinih2{
+    margin-top: 1.2em;
+}
+
+.landing-page .section-team .team .team-player img {
+    max-width: 150px;
+}
