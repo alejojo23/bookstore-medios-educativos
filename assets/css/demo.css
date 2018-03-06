@@ -471,3 +471,15 @@ h5{
 .landing-page .section-team .team .team-player img {
     max-width: 150px;
 }
+
+.catalogo{
+    margin-top: 1.2em;
+}
+
+.logo-medios{
+    width: 15%;
+}
+
+.telefono-contacto{
+    text-align: center;
+}
