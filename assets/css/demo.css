@@ -469,7 +469,7 @@ h5{
 }
 
 .landing-page .section-team .team .team-player img {
-    max-width: 150px;
+    max-width: 170px;
 }
 
 .catalogo{
@@ -482,4 +482,8 @@ h5{
 
 .telefono-contacto{
     text-align: center;
+}
+
+.img-raised {
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
 }
