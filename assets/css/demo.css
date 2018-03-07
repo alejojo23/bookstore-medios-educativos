@@ -571,3 +571,7 @@ h5{
 .blockquote.blockquote-primary small {
     color: #204177;
 }
+
+.section-story-overview {
+    padding: 20px 0;
+}
