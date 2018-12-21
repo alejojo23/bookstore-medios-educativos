@@ -575,3 +575,7 @@ h5{
 .section-story-overview {
     padding: 20px 0;
 }
+
+.logo-link:hover {
+    background-color: transparent;
+}
