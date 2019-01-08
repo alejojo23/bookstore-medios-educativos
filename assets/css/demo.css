@@ -563,6 +563,14 @@ h5{
     margin-top:20px;
 }
 
+.content-center .title{
+    margin-top: 80px;
+}
+
+.titulo {
+    font-size: 1.3em !important;
+}
+
 .blockquote.blockquote-primary {
     border-color: #27A8E2;
     color: #204177;
